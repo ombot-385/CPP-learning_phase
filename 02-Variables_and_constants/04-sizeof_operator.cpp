@@ -22,8 +22,7 @@ int main() {
     cout << "float: " << sizeof(float) << " bytes." << endl;
     cout << "double: " << sizeof(double) << " bytes." << endl;
     cout << "long double: " << sizeof(long double) << " bytes." << endl;
-//
-//
+  
     // using values defined in <climits>
     cout << "========================" << endl;
     
@@ -33,7 +32,7 @@ int main() {
     cout << "short: " << SHRT_MIN << endl;
     cout << "long: " << LONG_MIN << endl; 
     cout << "long long: " << LLONG_MIN << endl;
-//     
+     
     cout << "========================" << endl;
     
     cout << "Maximum values:" << endl;
@@ -42,7 +41,7 @@ int main() {
     cout << "short: " << SHRT_MAX << endl;
     cout << "long: " << LONG_MAX << endl; 
     cout << "long long: " << LLONG_MAX << endl;
-//    
+    
     // sizeof can also be used with variable names
     cout << "========================" << endl;
     
@@ -60,4 +59,5 @@ int main() {
 
     return 0;
 }
+
 
