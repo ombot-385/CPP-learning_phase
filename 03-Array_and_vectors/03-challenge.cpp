@@ -1,5 +1,4 @@
-/*  Section 7
-    Challenge - Solution
+/*  CHALLENGE QUESTION
     
     Write a C++ program as follows:
     
@@ -28,6 +27,7 @@
     
     What did you expect? Did you get what you expected? What do you think happended?
 */
+//solution
     
 #include <iostream>
 #include <vector>
@@ -102,4 +102,5 @@ int main() {
     cout << endl;
     return 0;
 }
+
 
